@@ -2,13 +2,14 @@
 
 Supermarket Together oyunu için geliştirilmiş, görsel arayüzlü (GUI) ve otomatik kurulum destekli en güncel Türkçe yama projesidir.
 
-![Afiş](cdn/banner.jpg)
+![Afiş](cdn/banner.png)
 
 ## 🚀 Öne Çıkan Özellikler
 
 *   **%100 Değildir:** Oyun içi menüler, bazı ürünler, bazı görevler ve bazı diyaloglar Türkçe olarak çevrilmiştir. Hala eksik bölümler olabilir. Geri bildirim vererek yamanın çevrilmesine katkı sağlayabilirsiniz.
 *   **Kolay Kurulum (EXE):** Oyun klasörünü otomatik algılayan akıllı yükleyici. Manuel dosya kopyalama ile uğraşmanıza gerek kalmaz.
 *   **Akıllı Güncelleme/Onarım:** Eğer yama zaten kuruluysa günceller, dosyalar eksikse onarır.
+*   **Oyun Bağımlılığı Kontrolü:** Kurulum sırasında eğer oyun açıksa sizi uyarır. Bu sayede "dosya kilitli" hataları önlenmiş olur.
 
 ## 🛠️ Kurulum Rehberi
 
@@ -29,5 +30,7 @@ Supermarket Together oyunu için geliştirilmiş, görsel arayüzlü (GUI) ve ot
 *   **Kullanılan Araçlar:** XUnity.AutoTranslator, Python, PyInstaller ve Gemini AI.
 
 ---
-*Proje hakkında geri bildirimleriniz için GitHub üzerinden Issue açabilir veya <a src="https://forum.donanimarsivi.com/konu/supermarket-together-turkce-yama-yayinlandi.1213213/">Forum'da ilgili konu üzerinden</a> ulaşabilirsiniz.*
+*Proje hakkında geri bildirimleriniz için GitHub üzerinden Issue açabilir veya aşağıdan Forum'da ilgili konu üzerinden ulaşabilirsiniz.*
+
+https://forum.donanimarsivi.com/konu/supermarket-together-turkce-yama-yayinlandi.1213213/
 
