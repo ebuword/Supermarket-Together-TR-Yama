@@ -2,7 +2,7 @@
 
 Supermarket Together oyunu için geliştirilmiş, görsel arayüzlü (GUI) ve otomatik kurulum destekli en güncel Türkçe yama projesidir.
 
-![Afiş](cdn/banner.png)
+![Afiş](cdn/banner.jpg)
 
 ## 🚀 Öne Çıkan Özellikler
 
