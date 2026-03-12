@@ -1,4 +1,4 @@
-# Supermarket Together — Türkçe Yama (v12.0)
+# Supermarket Together — Türkçe Yama (v12.27)
 
 Supermarket Together oyunu için geliştirilmiş, görsel arayüzlü (GUI) ve otomatik kurulum destekli en güncel Türkçe yama projesidir.
 
@@ -14,7 +14,7 @@ Supermarket Together oyunu için geliştirilmiş, görsel arayüzlü (GUI) ve ot
 ## 🛠️ Kurulum Rehberi
 
 1.  GitHub [Releases](https://github.com/ebuword/Supermarket-Together-TR-Yama/releases) sayfasından en güncel `.exe` dosyasını indirin.
-2.  `Supermarket_Together_TR_Yama_Kurulum_v12.exe` dosyasını çalıştırın.
+2.  Örneğin inen `Supermarket_Together_TR_Yama_Kurulum_v12.exe` dosyasını çalıştırın.
 3.  Uygulama oyunun kurulu olduğu konumu otomatik bulacaktır. Eğer bulamazsa "Gözat" diyerek oyunun ana klasörünü seçin.
 4.  "Türkçe Yamayı Kur" butonuna basın.
 5.  Kurulum başarıyla tamamlandı uyarısından sonra oyuna girebilirsiniz!
