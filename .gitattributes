@@ -1,0 +1,6 @@
+# Preserve vendored runtime binaries exactly.
+*.dll binary
+*.exe binary
+*.ico binary
+*.png binary
+*.dat binary

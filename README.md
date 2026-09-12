@@ -1,36 +1,55 @@
-# Supermarket Together — Türkçe Yama (v12.27)
+# Supermarket Together Türkçe Yama — uyumluluk sürümü
 
-Supermarket Together oyunu için geliştirilmiş, görsel arayüzlü (GUI) ve otomatik kurulum destekli en güncel Türkçe yama projesidir.
+Bu fork, [@ebuword'un Türkçe yamasını](https://github.com/ebuword/Supermarket-Together-TR-Yama)
+güncel **Supermarket Together** sürümünde çalışacak şekilde paketler.
 
-![Afiş](cdn/banner.jpg)
+## İndir
 
-## 🚀 Öne Çıkan Özellikler
+En güncel kurulum dosyasını **[Releases](../../releases/latest)** sayfasından indirin.
 
-*   **%100 Değildir:** Oyun içi menüler, bazı ürünler, bazı görevler ve bazı diyaloglar Türkçe olarak çevrilmiştir. Hala eksik bölümler olabilir. Geri bildirim vererek yamanın çevrilmesine katkı sağlayabilirsiniz.
-*   **Kolay Kurulum (EXE):** Oyun klasörünü otomatik algılayan akıllı yükleyici. Manuel dosya kopyalama ile uğraşmanıza gerek kalmaz.
-*   **Akıllı Güncelleme/Onarım:** Eğer yama zaten kuruluysa günceller, dosyalar eksikse onarır.
-*   **Oyun Bağımlılığı Kontrolü:** Kurulum sırasında eğer oyun açıksa sizi uyarır. Bu sayede "dosya kilitli" hataları önlenmiş olur.
+## Düzeltilen sorunlar
 
-## 🛠️ Kurulum Rehberi
+- XUnity AutoTranslator **5.6.2** sürümüne güncellendi.
+- Hatalı `BepInEx\BepInEx\Translation` yolu giderildi.
+- Çeviri yolları BepInEx köküne göre `Translation\{Lang}\Text` olarak düzeltildi.
+- Unity UI Toolkit desteği için `EnableUIElements=True` etkinleştirildi.
+- TextMeshPro çevirisi etkin tutuldu.
+- Kurulumdan önce üzerine yazılacak mevcut dosyalar otomatik yedekleniyor.
+- Kurulum sonunda 1.600'den fazla çeviri satırı ve kritik dosyalar doğrulanıyor.
 
-1.  GitHub [Releases](https://github.com/ebuword/Supermarket-Together-TR-Yama/releases) sayfasından en güncel `.exe` dosyasını indirin.
-2.  Örneğin inen `Supermarket_Together_TR_Yama_Kurulum_v12.exe` dosyasını çalıştırın.
-3.  Uygulama oyunun kurulu olduğu konumu otomatik bulacaktır. Eğer bulamazsa "Gözat" diyerek oyunun ana klasörünü seçin.
-4.  "Türkçe Yamayı Kur" butonuna basın.
-5.  Kurulum başarıyla tamamlandı uyarısından sonra oyuna girebilirsiniz!
+## Kurulum
 
-## ⚠️ Önemli Notlar
+1. Oyunu ve Steam'deki oyun penceresini kapatın.
+2. Releases sayfasındaki `.exe` dosyasını çalıştırın.
+3. Kurucu oyun klasörünü otomatik bulamazsa şu klasörü seçin:
+   `...\steamapps\common\Supermarket Together`
+4. **Türkçe Yamayı Kur** düğmesine basın.
+5. Oyunu açın. Oyun içindeki dil **English** olarak kalmalıdır; yama İngilizce
+   metinleri çalışma zamanında Türkçeye dönüştürür.
 
-*   **Antivirüs Uyarıları:** Uygulama Python (PyInstaller) ile paketlendiği için bazı antivirüs yazılımları (False Positive) uyarısı verebilir. Uygulama tamamen güvenlidir.
+> Ayrı bir “Türkçe” dil düğmesinin görünmemesi normaldir.
 
-*   **Windows Sürümü:** Bu sürüm (v12) modern Windows (10/11) sistemleri için optimize edilmiştir. Eski Windows sürümlerinde çalışmayabilir.
+## Kaynaktan test ve derleme
 
-## ⚖️ Araçlar
+Gereksinim: Windows ve Python 3.11+
 
-*   **Kullanılan Araçlar:** XUnity.AutoTranslator, Python, PyInstaller ve Gemini AI.
+```powershell
+python -m unittest discover -s tests -v
+.\build.ps1
+```
 
----
-*Proje hakkında geri bildirimleriniz için GitHub üzerinden Issue açabilir veya aşağıdan Forum'da ilgili konu üzerinden ulaşabilirsiniz.*
+Derlenen dosya `dist\Supermarket_Together_TR_Yama_v12.27.4-fixed.1.exe`
+konumunda oluşur. GitHub Actions da her değişiklikte aynı testleri çalıştırıp
+Windows kurulum paketini artifact olarak üretir.
 
-https://forum.donanimarsivi.com/konu/supermarket-together-turkce-yama-yayinlandi.1213213/
+## Sürümler
 
+- Türkçe çeviri paketi: **12.27.4** (upstream)
+- Uyumluluk paketi: **12.27.4-fixed.1**
+- XUnity AutoTranslator: **5.6.2**
+
+## Atıf ve lisanslar
+
+Çeviri çalışması: **@ebuword**. Bu fork bağımsız bir uyumluluk güncellemesidir.
+Üçüncü taraf lisansları ve ayrıntılar için [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)
+dosyasına bakın.

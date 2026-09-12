@@ -1,0 +1,28 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(12, 27, 4, 1),
+    prodvers=(12, 27, 4, 1),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '040904B0',
+        [StringStruct('CompanyName', 'Supermarket Together TR Yama Community Fork'),
+         StringStruct('FileDescription', 'Supermarket Together Türkçe Yama Kurucusu'),
+         StringStruct('FileVersion', '12.27.4-fixed.1'),
+         StringStruct('InternalName', 'SupermarketTogetherTRYama'),
+         StringStruct('LegalCopyright', 'Çeviri: ebuword; uyumluluk fork katkıları'),
+         StringStruct('OriginalFilename', 'Supermarket_Together_TR_Yama_v12.27.4-fixed.1.exe'),
+         StringStruct('ProductName', 'Supermarket Together Türkçe Yama'),
+         StringStruct('ProductVersion', '12.27.4-fixed.1')]
+      )
+    ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)
